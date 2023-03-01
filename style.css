@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+body{
+    background-image: url("image/bg.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+header {
+  height: 100vh;
+  background-image: url("image/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  font-family: 'Tilt Neon', cursive;
+}
+
+.logo img {
+  width: 96px;
+  height: 86px;
+  margin-inline: 103px;
+  margin-top: 10px;
+}
+
+.nav-bar {
+  position: relative;
+  left: 353px;
+  bottom: 78px;
+}
+.fix-bar{
+    position:fixed;
+    width:100%;
+    background:transparent;
+    top:0;
+}
+.nav-bar ul {
+  list-style-type: none;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  margin: 14px 50px;
+  width: 105px;
+  padding: 12px 8px;
+  color: white;
+  border: 2px hidden white;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.nav-bar ul li a {
+  color: rgb(216, 128, 128);
+  text-decoration: none;
+}
+
+.content{
+    width:50%;
+    margin-top: 141px;
+}
+
+.article {
+  margin: 105px 127px;
+  padding: 69px 88px;
+  height: 200px;
+  margin-left: 200px;
+}
+
+.article img {
+  width: 230px;
+  height: 250px;
+  position: absolute;
+  right: 398px;
+  top: 332px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+form.form-example {
+  display: table;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+#ContactMe {
+  height: 100vh;
+  background-image: url("image/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.form {
+    position: relative;
+    top: 36%;
+    left: 36%;
+    border: 2px solid white;
+    width: 20%;
+    padding: 50px;
+    font-size: large;
+    font-family: 'Tilt Neon', cursive;
+}
